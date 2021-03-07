@@ -1,4 +1,4 @@
-var names = ["Yakoov", "John", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+var names = ["Yakoov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 (function (names) {
     for (name in names) {
         var firstLetter = names[name].charAt(0);

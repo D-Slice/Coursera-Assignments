@@ -1,12 +1,12 @@
 (function (window) {
-	var bye = {};
+	var byeSpeaker = {};
 	var sayBye = "GoodBye";
 
-	bye.say =  function (name) {
+	byeSpeaker.say =  function (name) {
 		console.log(sayBye + " " + name);
 	}
 
-	window.bye = bye;
+	window.byeSpeaker = byeSpeaker;
 
 })(window);
 
