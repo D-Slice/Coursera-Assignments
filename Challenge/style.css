@@ -1,0 +1,148 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+#leftDiv{
+    background-color: hsl(31, 77%, 52%);
+}
+
+#midDiv{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#rightDiv{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+    margin-top:150px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+#container{
+    margin-top: 12%;
+}
+#leftDiv, #midDiv, #rightDiv{
+    height:700px;
+    width:32.33%;
+    float: left;
+}
+#leftDiv{
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    position: relative;
+
+}
+#midDiv{
+    position: relative;
+
+}
+#rightDiv{
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    position: relative;
+
+}
+#secContainer{
+    width: 70%;
+    margin: 0px auto;
+}
+#sedans, #suvs, #luxury{
+    color:hsl(0, 0%, 95%);
+    position: absolute;
+    font-family: 'Big Shoulders Display', cursive;
+    left: 66px;
+    top: 24%;
+    font-size: 51px;
+}
+p, a{
+    position:absolute;
+}
+p{
+    top: 37%;
+    left: 66px;
+    width: 51%;
+    line-height: 1.8;
+    font-size: 17px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+#butt1{
+    color:hsl(31, 77%, 52%);
+}
+#butt1:hover{
+    color:hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;;
+}
+#firstA:hover{
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    background-color:hsl(31, 77%, 52%); ;
+}
+#butt2{
+    color: hsl(184deg 77% 38%);
+}
+#secondA:hover{
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    background-color:hsl(184, 100%, 22%);
+}
+#butt2:hover{
+    color:hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;;
+}
+#butt3{
+    color: hsl(179deg 73% 26%);
+}
+#thirdA:hover{
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    background-color:hsl(179, 100%, 13%);
+}
+#butt3:hover{
+    color:hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;;
+}
+a{
+    bottom: 75px;
+    left: 66px;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 20px;
+    border-radius: 35px;
+    padding: 14px;
+    text-align: center;
+    width: 45%;
+    height: 8%;
+}
+img{
+    position:absolute;
+    left:66px;
+    top:11%;
+}
+@media (min-width:375px) and (max-width:1360px){
+    #leftDiv, #midDiv, #rightDiv {
+        height: 700px;
+        width: 100%; 
+        float: none;
+
+    }
+    #leftDiv{
+        border-top-right-radius: 2%;
+        border-bottom-left-radius: 0px;
+    }
+    #rightDiv{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 2%;
+        margin-bottom: 150px;
+    }
+    #secContainer {
+        width: 85%;
+    }
+    p{
+        width: 61%;
+    }
+}
