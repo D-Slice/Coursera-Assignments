@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(222, 26%, 31%);
+    font-family: 'Spartan', sans-serif;
+}
+#calc-container{
+    width: 70%;
+    margin: 150px auto;
+    height: 900px;
+    position: relative;
+}
+#heading{
+    position: absolute;
+    top: 93px;
+    right: 29%;
+    width:40%;
+    height: 70px;
+}
+#calc{
+    float:left;
+    color: #ffffff;
+    font-size: 27px;
+}
+#theme{
+    float: right;
+    position: absolute;
+    color: #ffffff;
+    right: 76px;
+    top: 36%;
+    font-size: 12px;
+}
+#heading ul{
+    list-style: none;
+    float: right;
+}
+#heading ul li{
+    display: inline;
+    margin-left: 4px;
+    color: #ffffff;
+    font-size: 10px;
+    margin-right: 5px;
+}
+#circleDiv{
+    background-color: hsl(268, 71%, 12%);
+    width: 10%;
+    float: right;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 40%;
+    border-radius: 23px;
+    cursor: pointer;
+}
+#circle{
+    height: 14px;
+    width: 14px;
+    background-color:  hsl(6, 63%, 50%);
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+}
+#calculator{
+    position: absolute;
+    top: 166px;
+    right: 29%;
+    width: 40%;
+    height: 153px;
+    border-radius: 10px;
+}
+#textarea{
+    width: 100%;
+    height: 153px;
+    border-radius: 10px;
+    resize: none;
+    background-color: hsl(224, 36%, 15%);
+    color: white;
+    direction: rtl;
+    font-size: 46px;
+}
+#buttons-container{
+    background-color: hsl(223, 31%, 20%);
+    width: 40%;
+    height: 450px;
+    position: absolute;
+    bottom: 105px;
+    right: 29%;
+    border-radius: 8px;
+}
+#buttons{
+    width: 90%;
+    height: 90%;
+    margin: 0px auto;
+    margin-top: 24px;
+    position: relative;
+    font-size: 25px;
+}
+#buttons div{
+    float:left;
+    width: 10%;
+    background-color:hsl(30, 25%, 89%);
+    position: absolute;
+    text-align: center;
+}
+#buttons ul{
+    list-style-type: none;
+}
+#buttons button{
+    float: left;
+    width: 21%;
+    background-color: hsl(30, 25%, 89%);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 38px;
+    height: 49px;
+    padding: 8px;
+    margin-left: 15px;
+    box-shadow: 3px 3px black;
+    border-bottom: 3px solid gray;
+    cursor: pointer;
+    font-size:25px;
+    font-weight: bold
+    
+}
+#reset{
+    width: 45% !important;
+    background-color: hsl(225, 21%, 49%) !important;
+    color: white !important;
+    height: 53px !important;
+    border-bottom: 3px solid hsl(225, 21%, 49%) !important;
+}
+#equal{
+    width: 46% !important;
+    background-color: hsl(6, 63%, 50%) !important;
+    color: hsl(30, 25%, 89%) !important;
+    height: 53px !important;
+    border-bottom: 3px solid hsl(6, 63%, 50%) !important;
+}
+#del{
+    background-color: hsl(225, 21%, 49%) !important;
+    color: white !important;
+    border: none !important;
+}
+.textAr3{
+    background-color:hsl(268, 71%, 12%) !important;
+    color:hsl(52, 100%, 62%) !important;
+    width: 100% !important;
+    height: 153px !important;
+    border-radius: 10px !important;
+    resize: none !important;
+    background-color: hsl(224, 36%, 15%) !important;
+    color: white !important;
+    direction: rtl !important;
+    font-size: 46px !important;
+    border: none !important;
+    transition: all 2s;
+}
+.buttonsContainer3{
+    background-color:hsl(268, 71%, 12%) !important;
+    width: 40% !important;
+    height: 450px !important;
+    position: absolute !important;
+    bottom: 105px !important;
+    right: 29% !important;
+    border-radius: 8px !important;
+    transition: all 2s !important;
+}
+.theme3{
+    color: hsl(52, 100%, 62%) !important;
+    float: right  !important;
+    position: absolute  !important;
+    right: 76px  !important;
+    top: 36%  !important;
+    font-size: 12px  !important;
+}
+.liOne3{
+    color: hsl(52, 100%, 62%) !important;
+}
+.cal3{
+    color:hsl(52, 100%, 62%) !important;
+    font-size: 27px !important;
+}
+.circleDiv3{
+    background-color: hsl(268, 71%, 12%) !important;
+    width: 10% !important;
+    float: right !important;
+    height: 20px !important;
+    position: absolute !important;
+    right: 0 !important;
+    bottom: 40% !important;
+    border-radius: 23px !important;
+    cursor: pointer !important;
+}
+.circle3{
+    height: 14px !important;
+    width: 14px !important;
+    background-color: hsl(176, 100%, 44%)!important;
+    border-radius: 50% !important;
+    position: absolute !important;
+    top: 3px !important;
+    left: 35px;
+    transition: all 2s !important;
+}
+.one3{
+    background-color: hsl(268, 47%, 21%) !important;
+    border-bottom:  3px solid hsl(285, 91%, 52%) !important;
+    color: rgb(255, 229, 61) !important;
+    transition: all 2s !important;
+    border-top: none !important;
+    border-left: none !important;
+}
+.del3{
+    background-color:  hsl(281, 89%, 26%) !important;
+    transition: all 2s !important;
+    border: none !important;
+    color: white !important;
+    border-bottom: 3px solid hsl(285, 91%, 52%) !important;
+}
+.reset3{
+    background-color: hsl(281, 89%, 26%) !important;
+    color: white !important;
+    border: none !important;
+    width: 45% !important;
+    height: 53px !important;
+    transition: all 2s !important;
+    border-bottom: 3px solid hsl(285, 91%, 52%) !important;
+}
+.equal3{
+    background-color: hsl(176, 100%, 44%) !important;
+    transition: all 2s !important;
+    width: 46% !important;
+    height: 53px !important;
+    border-bottom: 3px solid hsl(177, 92%, 70%) !important;
+    border-top: none !important;
+    border-left: none !important;
+}
+.cal2{
+    color: black;
+    font-size: 27px;
+    float: left;
+    transition: all 2s ease 0s;
+}
